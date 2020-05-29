@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FinalProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\libtorch-mnist\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;CMake Files\src\;CMake Files\cmake\;CMake Files\apps\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylibrary">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/libmylibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mylibrary"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylibrary/fast">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/libmylibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mylibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder-myapp">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Debug/cinder-myapp/cinder-myapp.app/Contents/MacOS/cinder-myapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 cinder-myapp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder-myapp/fast">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Debug/cinder-myapp/cinder-myapp.app/Contents/MacOS/cinder-myapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 cinder-myapp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Debug/test/test.app/Contents/MacOS/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/Debug/test/test.app/Contents/MacOS/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/arthurhuang/IdeaProjects/cinder/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include"/>
+					<Add directory="/Users/arthurhuang/libtorch-mnist/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/apps/my_app.cc">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/apps/my_app.h">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/apps/run.cc">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/src/mnist_net.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/tests/test.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/samples/data/CinderApp.icns">
+			<Option target="mylibrary"/>
+			<Option target="cinder-myapp"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../../../libtorch-mnist/libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\libtorch-mnist\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake/make_cinder_library.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

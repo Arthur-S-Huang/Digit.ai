@@ -1,0 +1,11 @@
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/src/CMakeFiles/mylibrary.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/CMakeFiles/rebuild_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/CMakeFiles/edit_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/apps/CMakeFiles/cinder-myapp.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+/Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug/tests/CMakeFiles/test.dir

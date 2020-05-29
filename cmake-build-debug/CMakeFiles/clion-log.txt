@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/Users/arthurhuang/opencv -G "CodeBlocks - Unix Makefiles" /Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang
+CMake Version: 3.15.3.
+Building with llvm Code Coverage Tools
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Doxygen not found, not building docs
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/arthurhuang/IdeaProjects/cinder/myprojects/final-project-Arthur-S-Huang/cmake-build-debug
